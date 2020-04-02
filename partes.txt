@@ -1,0 +1,16 @@
+numero de factura
+letFecha de emision
+condicion de venta Contado()  Credito()
+Nombre o Razón Social
+Ruc
+Dirección
+Telefono 
+Nota de remisión
+codigo
+cant
+descripcion
+punitario
+ventas exentas 5 10
+Valor Parcial
+Total a Pagas en letras
+liquidacion de iva 5  10  total
