@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo</title>
+</head>
+<body>
+	
+	<h2>Factura</h2>
+	<hr>
+	<div class="cabecera">
+		<h5>Cabecera</h5>
+		RAZÓN SOCIAL: <input type="text" id="razon_social"> <br>
+		FECHA: <input type="date" id="fecha">
+
+	</div>
+	<hr>
+	<div class="detalle">
+		<h5>Detalle</h5>
+		<div>
+			CANTIDAD: <input type="number" id="cant_item"> 
+			DESCRIPCIÓN: <input type="text" id="descrip_item">
+			MONTO: <input type="number" id="monto_item">
+			<button id="btn_detalle">Agregar detalle</button>
+		</div>
+		<hr>
+		<table>
+			<thead>
+				<th>CANT.</th>
+				<th>DESCRIPCIÓN</th>
+				<th>MONTO</th>
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+		<div>
+			<h4>Total: <span id="tot"></span></h4>
+		</div>
+	</div>
+	<div class="impresion">
+		<button id="btn_imp">IMPRIMIR</button>
+	</div>
+
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="app_ejemplo.js"></script>
+
+</body>
+</html>
